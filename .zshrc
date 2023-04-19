@@ -4,3 +4,8 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=/Users/kento-takahashi/.rd/bin:$PATH
 autoload -U compinit
 compinit
+PROMPT='
+%K{red}%D{%Y-%m-%d} %*%k
+%K{blue}[%d]%k
+$ '
+
