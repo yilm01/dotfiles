@@ -19,3 +19,7 @@ PROMPT='[%B%F{red}%n@%m%f%b:%F{green}%~%f]
 %f%F{yellow}$%f'
 
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+# nodeパッケージ管理（asdf）のパス
+echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
+
