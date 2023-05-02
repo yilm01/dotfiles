@@ -22,4 +22,4 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # nodeパッケージ管理（asdf）のパス
 echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
-
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
